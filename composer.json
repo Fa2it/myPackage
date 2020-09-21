@@ -1,0 +1,20 @@
+{
+    "name": "ashu/my-package",
+    "description": "testing creationg Math extension",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fa2it",
+            "email": "ashu_felix@yahoo.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": [
+            "Ashu\\Aba\\": "src/"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
